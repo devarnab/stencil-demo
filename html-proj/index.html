@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stencil Demo HTML project</title>
-    <link rel="stylesheet" href="/node_modules/st-awesome-components/dist/st-awesome-components/st-awesome-components.css" />
-    <script type="module" src="/build/stncl-awesome-components.esm.js"></script>
-    <script nomodule src="/build/stncl-awesome-components.js"></script>
+    <link
+      rel="stylesheet"
+      href="./node_modules/stncl-awesome-components/dist/stncl-awesome-components/stncl-awesome-components.css"
+    />
+    <script type="module">
+      import { defineCustomElements } from "./node_modules/stncl-awesome-components/loader/index.es2017.js";
+      defineCustomElements();
+    </script>
   </head>
   <body>
+    <h1>HTML project</h1>
     <ac-fetch-users></ac-fetch-users>
   </body>
 </html>
