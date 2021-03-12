@@ -1,0 +1,45 @@
+:host {
+  border: 2px solid var(--app-grey-color-2);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 40rem;
+  max-width: 100%;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.btn {
+  background-color: var(--app-secondary-color);
+  border: 0px;
+  color: var(--app-white-color);
+  cursor: pointer;
+  height: 40px;
+  padding: 0 20px;
+}
+
+.btn:hover {
+  background-color: var(--app-secondary-hover-color);
+}
+
+h1 {
+  padding: 0;
+  margin: 20px 0;
+  font-size: 32px;
+  color: var(--app-primary-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 5px 10px;
+  margin-bottom: 2px;
+  background-color: var(--app-tertiary-color);
+}

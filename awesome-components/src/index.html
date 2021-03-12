@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="/build/stncl-awesome-components.css" />
+    <script type="module" src="/build/stncl-awesome-components.esm.js"></script>
+    <script nomodule src="/build/stncl-awesome-components.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 80%;
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+      .mt2 {
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ac-fetch-users class="mt2"></ac-fetch-users>
+      <ac-card class="mt2" ac-title="Lorem, ipsum dolor." ac-footer-link="http://google.com" ac-footer-text="Go to Google">
+        <div>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio officiis nam ad eaque illo doloribus omnis, harum tempora recusandae minus, at deserunt autem itaque
+          nostrum obcaecati voluptates aliquid earum quis?
+        </div>
+      </ac-card>
+    </div>
+  </body>
+</html>

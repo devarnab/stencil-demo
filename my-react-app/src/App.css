@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --app-primary-color: #05445e;
+  --app-primary-hover-color: #075170;
+
+  --app-secondary-color: #189ab4;
+  --app-secondary-hover-color: #24b1ce;
+
+  --app-tertiary-color: #75e6da;
+  --app-tertiary-hover-color: #8df3e9;
+
+  --app-white-color: #ffffff;
+  --app-black-color: #000000;
+
+  --app-grey-color-1: #d4f1f4;
+  --app-grey-color-2: #b3cbce;
+  --app-grey-color-3: #809294;
+  --app-grey-color-4: #444d4e;
+  --app-grey-color-4: #212525;
+}
+
+.mt2 {
+  margin-top: 20px;
+}
+
+.App {
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 10px 30px 10px;
+}
